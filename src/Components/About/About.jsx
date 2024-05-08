@@ -1,3 +1,4 @@
+// About.jsx
 import { styles } from "../../style";
 const Team = [
 
