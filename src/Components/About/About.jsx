@@ -1,5 +1,6 @@
-// About.jsx
 import { styles } from "../../style";
+import store_img from "../../assets/bookstore.jpg";
+
 const Team = [
 
   {
@@ -30,21 +31,24 @@ function About() {
         <div className="mx-auto max-w-7xl px-4">
           <div className="flex flex-col space-y-8 pb-10 pt-12 md:pt-24">
             <div className="max-w-max rounded-full border bg-gray-50 p-1 px-3">
-              <p className="text-xs font-semibold leading-normal md:text-sm">
-                About the company
-              </p>
+              <p className="text-xs font-semibold leading-normal md:text-sm">About the company</p>
             </div>
-            <p className="text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
-              Made with love, right here in Kenya!
-            </p>
-            <p className="max-w-4xl text-base text-gray-600 md:text-xl">
-              BOOKLAB, proudly crafted in Kenya, is your go-to online bookstore for quality reading and 
-              educational materials. From classic novels to workbooks and activity books for kids of all ages, we
-              offer a diverse selection, including renowned brands like Usborne and DK Books. 
-              Enjoy free shipping and cash on delivery services across Kenya, along with competitive prices and quick delivery,
-              making BOOKLAB your trusted partner in education.
-            </p>
+            <p className="text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">Made with love, right here in Kenya!</p>
+            <div className="flex flex-col md:flex-row items-center">
+              <p className="max-w-4xl text-base text-gray-600 md:text-xl md:mr-8">
+                BOOKLAB, proudly crafted in Kenya, is your go-to online bookstore for quality
+                reading and educational materials. From classic novels to workbooks and activity books for
+                kids of all ages.Enjoy free shipping and cash on delivery services across Kenya, along with competitive prices and quick delivery,
+                making BOOKLAB your trusted partner in education.
+              </p>
+              <img
+              alt="Contact us"
+              className="hidden h-[450px] w-[687px] rounded-lg object-cover lg:block"
+              src={store_img}
+            />            
+            </div>
           </div>
+
           <hr />
           <div className="mt-8 flex items-center">
             <div className="space-y-6 md:w-3/4">
@@ -199,3 +203,4 @@ function About() {
 }
 
 export default About;
+
