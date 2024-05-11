@@ -7,12 +7,12 @@ function Home() {
         <h1 className="text-[#393280] font-semibold text-[60px]">
           BOOKLAB
         </h1>
-        <p className="leading-7" style={{ color: "rgba(57, 50, 128, 0.80)" }}>
-        Welcome to BookLab, your one-stop solution for exploring, organizing, and discovering books.
-        In a world inundated with information, BookLab is designed to streamline the process of  
-        finding your next great read while enhancing your overall reading experience.
+        <p className="leading-7" style={{ color: "rgba(57, 50, 128, 0.80)", fontSize: "1.30rem" }}>
+  Welcome to BookLab, your one-stop solution for exploring, organizing, and discovering books.
+  In a world inundated with information, BookLab is designed to streamline the process of  
+  finding your next great read while enhancing your overall reading experience.
+</p>
 
-        </p>
         <Link to="books">
         <button
           type="button"
