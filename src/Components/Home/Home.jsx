@@ -30,7 +30,7 @@ function Home() {
       </div>
       <div className="relative flex justify-end">
         <img
-          className="lg:w-[713px] lg:h-[607px] ps-4 flex-shrink-0"
+          className="lg:w-[600px] lg:h-[607px] ps-5 flex-shrink-0"
           src={HeroImg}
           alt="Hero Image"
         />

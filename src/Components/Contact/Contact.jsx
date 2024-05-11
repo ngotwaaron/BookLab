@@ -21,8 +21,7 @@ function Contact() {
             </p>
           </div>
           <div className="mx-auto max-w-7xl py-12 md:py-24">
-            <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">
-              <div className="flex items-center justify-center">
+          <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2 mt-n30">              <div className="flex items-center justify-center">
                 <div className="px-2 md:px-12">
                   <p className="text-2xl font-bold text-gray-900 md:text-4xl">
                     Get in touch
@@ -105,7 +104,7 @@ function Contact() {
               </div>
               <img
                 alt="Contact us"
-                className="hidden h-[600px] w-[687px] rounded-lg object-cover lg:block"
+                className="hidden h-[450px] w-[687px] rounded-lg object-cover lg:block"
                 src={contact_img}
               />
             </div>

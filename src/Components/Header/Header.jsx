@@ -20,11 +20,11 @@ function Header() {
 
   return (
     
-<div className="fixed top-0 left-0 w-full shadow-lg z-50" style={{ background: 'linear-gradient(135deg, #fff7e6, #ffebd4)' }}>
+<div className="fixed top-0 left-0  h-12.5 w-full shadow-lg z-50" style={{ background: 'linear-gradient(135deg, #fff7e6, #ffebd4)' }}>
       <div className="flex items-center justify-between py-2 md:px-12 px-4">
         <div className="flex justify-normal items-center">
           <NavLink to="/" className="text-cyan-700  font-medium">
-            <img src={logo} alt="books" className="w-20 h-20" />
+            <img src={logo} alt="books" className="w-15 h-14  " />
           </NavLink>
         </div>
         <div>
