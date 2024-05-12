@@ -43,7 +43,7 @@ function About() {
               </p>
               <img
               alt="Contact us"
-              className="hidden h-[450px] w-[687px] rounded-lg object-cover lg:block"
+              className="hidden h-[600px] w-[687px] rounded-lg object-cover lg:block"
               src={store_img}
             />            
             </div>
@@ -203,4 +203,3 @@ function About() {
 }
 
 export default About;
-
